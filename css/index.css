@@ -117,9 +117,6 @@ body{
     left: 50%;
 }
 
-.logo__img{
-    /* margin-left: 100px; */
-}
 
 
 .personal{
@@ -203,10 +200,7 @@ body{
     /* background-color:#ffffff; */
     margin-right: 12px;
     color:black;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .socials__icon{
@@ -684,9 +678,6 @@ span{
     line-height: 32px;
 }
 
-.instagram{
-
-}
 
 .instagram__icon{
     margin-left: 50%;
@@ -735,7 +726,6 @@ span{
 .footer__arrow{
     border:1px solid rgb(197, 11, 11) ;
     background-color:#f2662f;
-    width: ;
 }
 
 .footer__letter{
