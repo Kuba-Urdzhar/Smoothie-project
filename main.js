@@ -2,12 +2,10 @@
     let burger__menu = document.getElementById('burger_menu')
 
 function burgerMenu(){
-
     let burger_icon = document.querySelector('.burger_icon')
     let close_icon = document.getElementById('close_icon')
 
     burger_icon.addEventListener('click', toggleBurgerMenu)
-
     close_icon.addEventListener('click', toggleBurgerMenu)
 }
 
@@ -16,6 +14,7 @@ function toggleBurgerMenu() {
 }
 
 burgerMenu() 
+
 
 
 let buyButtons = document.querySelectorAll('.products__btn')
