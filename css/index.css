@@ -1049,7 +1049,17 @@ body {
 @media (max-width:700px){
     .cause__title{
         width: 80%;
-}
+    }
+    .title--lime::after {
+        top: 175px;
+        left: 65px;
+    }
+
+    .cause__consist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 78px;}
 }
 
 @media (max-width:518px){
