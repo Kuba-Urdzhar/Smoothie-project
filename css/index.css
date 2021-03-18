@@ -477,14 +477,17 @@ body {
 
 
 .story {
+    padding: 120px 0px 160px 0px;
+}
+
+.container{
     display: flex;
-    margin-right: 0px;
-    padding: 120px 310px 160px 310px;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .story__inner {
-    display: flex;
-    flex-direction: column;
     margin-right: 205px;
 }
 
@@ -494,14 +497,7 @@ body {
     color: #f7ae3b;
     margin: 140px 0 30px;
     padding-left: 0px;
-    position: relative;
-}
-
-.story__title::after {
-    content: url(/assets/images/Stamp.png);
-    position: absolute;
-    top: -118px;
-    right: -330px;
+    
 }
 
 .story__text {
@@ -521,6 +517,21 @@ body {
     align-items: center;
 }
 
+.story__wrap{
+    position: relative;
+}
+
+
+.story__wrap::after {
+    content: url(/assets/images/Stamp.png);
+    position: absolute;
+    top: 25px;
+    right: 460px;
+}
+
+.story__img{
+    width: 100%;
+}
 
 .story__arrow--yellow {
     color: #fab438;
@@ -1019,17 +1030,21 @@ body {
     }
 
     @media (max-width:1024px){
+        .products{
+            overflow-x: scroll;
+        }
         .products__img{
             width: 95px;
         }
         .products__product{
+            width: 256px;
             padding-top: 90px;
             padding-bottom: 60px;
         }
         .products__btn{
             width: 160px;
             height: 50px;
-            margin-top: 50px;
+            margin: 50px 48px 0px 48px;
         }
         .products-title{
             font-size: 18px;
@@ -1037,12 +1052,6 @@ body {
         }
     }
 
-    @media (max-width:940px){
-        .products__btn{
-            
-        }
-
-    }
 
     @media (max-width:782px){
         .cause__title{
@@ -1072,6 +1081,8 @@ body {
     .cause__title{
         width: auto;
     }
+
+
 }
 
 
@@ -1145,6 +1156,23 @@ body {
     .about__sub-title{
         font-size: 22px;
     }
+    .products__product{
+        width: 214px;
+        padding-top: 80px;
+    }
+    .products__img {
+        width: 80px;
+    }
+    .products__btn {
+        width: 130px;
+        height: 45px;
+        font-size: 19px;
+    }
+    .products-title {
+        font-size: 16px;
+    }
+
+
 }
 
 @media (max-width: 375px){
